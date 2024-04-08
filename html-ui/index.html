@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Wi-Fi Wonders</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link href="res/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="res/css/style.css"/>
+
+<!--    <script src="res/js/jquery-3.7.1.min.js"></script>-->
+
+    <!-- Include the qwebchannel.js script -->
+    <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+</head>
+
+<body class="d-flex vh-100 p-4 bg-off-white">
+<!-- List of svg used in document -->
+<svg class="d-none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="logo" viewBox="0 0 311.08722 194.95296" fill="currentColor">
+        <g transform="translate(-8.2963772,-75.401894)">
+            <path
+                    d="m 70.079998,269.48507 c -0.792,-0.51747 -13.679999,-7.95935 -28.639999,-16.53752 -14.96,-8.57817 -28.349974,-16.26509 -29.755499,-17.08204 -1.406453,-0.8175 -2.7352568,-1.84062 -2.9552826,-2.27544 -0.5361189,-1.05951 -0.5943194,-73.42206 -0.061393,-76.3313 0.4409996,-2.40741 1.8693336,-5.11009 3.5911976,-6.79524 0.909751,-0.89035 12.866266,-7.96815 37.180977,-22.00972 19.711998,-11.38353 36.47415,-20.98308 37.249223,-21.33232 2.212257,-0.99683 3.430205,-0.65401 8.882993,2.50034 3.445026,1.9929 5.001045,3.08582 5.564975,3.90875 l 0.78281,1.14234 0.0844,32.86897 0.0844,32.86897 26.27943,15.15457 c 23.2788,13.42419 26.32923,15.27214 26.71559,16.18429 0.29044,0.68568 0.43617,2.37303 0.43617,5.05028 0,4.1928 -0.31115,5.58672 -1.47584,6.61168 -1.26316,1.11161 -80.650417,46.72866 -81.564162,46.86792 -0.69266,0.10557 -1.36101,-0.11569 -2.4,-0.79453 z m 42.887272,-27.13358 38.07273,-21.983 v -2.38105 -2.38105 l -0.72,0.45783 c -0.396,0.25181 -7.164,4.1704 -15.04,8.70797 -7.876,4.53758 -14.32,8.37511 -14.32,8.52784 0,0.93561 -2.59083,2.85412 -8.2435,6.1043 -5.4151,3.11358 -6.50775,3.62783 -7.65667,3.60355 -1.19309,-0.0252 -2.96651,0.91071 -16.159995,8.52839 l -14.819837,8.55671 -0.09483,2.31343 c -0.0817,1.9933 -0.02534,2.28677 0.407277,2.12076 0.276156,-0.10597 17.634827,-10.08503 38.574825,-22.17568 z m -43.207272,19.80112 v -1.84739 L 43.672359,245.3158 C 29.324157,237.07161 17.372158,230.02289 17.11236,229.65198 16.703401,229.06811 16.64,224.61198 16.64,196.45247 c 0,-20.44089 0.119519,-33.16553 0.321689,-34.2488 0.451339,-2.41836 1.96023,-5.32671 3.581139,-6.90256 0.94287,-0.91666 12.376838,-7.68586 36.257171,-21.46517 19.183999,-11.06945 35.152403,-20.2761 35.485342,-20.45921 0.535065,-0.29427 0.374967,-0.46794 -1.379002,-1.49592 -1.690493,-0.99077 -2.088154,-1.10869 -2.685343,-0.79632 -4.673351,2.44445 -72.027724,41.58679 -72.820183,42.31873 C 14.80726,153.95145 13.980666,155.12 13.563939,156 l -0.757687,1.6 -0.0031,36.99823 -0.0031,36.99824 7.6,4.33285 c 4.179999,2.38306 16.885869,9.67386 28.235266,16.20176 11.349397,6.5279 20.745397,11.86891 20.88,11.86891 0.134603,0 0.244732,-0.83132 0.244732,-1.84738 z m 18.129253,-14.98266 c 14.301909,-8.25625 15.953279,-9.13069 16.905829,-8.95199 0.92173,0.17292 1.71987,-0.18496 6.2903,-2.82051 4.2001,-2.42201 5.42835,-3.29127 6.21487,-4.39846 0.86112,-1.21219 2.78626,-2.4222 15.84,-9.95591 8.17286,-4.71681 14.85975,-8.71353 14.85975,-8.8816 0,-0.25479 -45.32672,-26.64432 -47.39309,-27.59258 -0.57077,-0.26193 -6.456996,3.03114 -38.720001,21.66202 -20.9258,12.084 -38.159032,22.08082 -38.29607,22.21515 -0.254006,0.249 47.263889,27.80085 48.028706,27.84804 0.23075,0.0142 7.552118,-4.09163 16.269706,-9.12416 z m -32.403878,-3.82578 c -0.508956,-0.2267 -5.675343,-3.2741 -11.480861,-6.772 -6.793003,-4.09287 -10.716438,-6.64657 -11.007031,-7.1643 -1.006137,-1.79256 -1.642511,-1.37662 32.122518,-20.99537 17.423999,-10.124 32.143981,-18.55738 32.711071,-18.74084 0.990345,-0.32039 1.470669,-0.0706 12.16,6.32353 6.12091,3.66141 11.38093,6.87465 11.68893,7.14055 0.31527,0.27217 0.56,0.92956 0.56,1.50426 0,0.57239 -0.246,1.23582 -0.56,1.51029 -0.84374,0.73751 -63.816116,37.22801 -64.594627,37.43055 -0.371044,0.0965 -1.091043,-0.01 -1.6,-0.23667 z m 30.822816,-21.45218 c 15.978491,-9.27143 29.172731,-16.96612 29.320531,-17.09929 0.22828,-0.2057 -15.38594,-9.85264 -16.867134,-10.42103 -0.330774,-0.12692 -10.938628,5.85023 -29.950218,16.87589 -16.190922,9.38984 -29.441038,17.17298 -29.444704,17.29587 -0.01157,0.38793 17.094537,10.50667 17.501526,10.35264 0.213505,-0.0808 13.461505,-7.73265 29.439999,-17.00408 z m 3.203059,18.93362 c -3.79942,-2.03807 -9.597339,-5.80259 -9.806131,-6.36701 -0.332595,-0.89908 -0.11068,-1.631 0.725021,-2.39126 C 81.894303,230.73536 107.75198,216 108.62519,216 c 0.54205,0 2.8271,1.17151 5.9652,3.05827 5.33661,3.2086 5.89907,3.79271 5.16637,5.36532 -0.35977,0.77219 -27.141317,16.47038 -28.538209,16.72787 -0.450204,0.083 -1.218491,-0.0636 -1.707303,-0.32585 z m 12.051712,-10.30397 c 5.65237,-3.27709 10.68528,-6.20823 11.18425,-6.51363 l 0.90721,-0.55528 -2.53984,-1.48901 -2.53984,-1.48901 -10.847371,6.28141 c -5.966054,3.45478 -11.036038,6.45777 -11.266631,6.67333 -0.33838,0.31632 0.0011,0.64586 1.76,1.70826 1.198593,0.72398 2.378591,1.32217 2.622218,1.32931 0.243626,0.007 5.067626,-2.66828 10.720004,-5.94538 z m -41.722961,-28.04369 37.919999,-21.90322 0.09093,-31.48737 c 0.05001,-17.31805 0.0085,-31.94972 -0.09215,-32.51482 -0.165666,-0.92976 -0.255779,-0.99982 -0.947595,-0.7368 -1.698362,0.64572 -72.089385,41.45405 -73.090371,42.37325 -0.593553,0.54505 -1.420146,1.71101 -1.836874,2.59101 l -0.757686,1.6 -0.0031,31.15423 c -0.0025,24.79832 0.07848,31.12085 0.396874,30.99058 0.22,-0.09 17.463999,-10.0201 38.319999,-22.06686 z m -22.72,-12.00984 c -1.229118,-0.42015 -1.25548,-1.89886 -0.07252,-4.06811 0.683872,-1.25406 1.066979,-1.6223 1.771876,-1.70313 1.060777,-0.12163 1.820649,0.41384 1.820649,1.28299 0,0.34182 -0.30876,1.33922 -0.686134,2.21645 -0.698175,1.62295 -1.90403,2.58964 -2.833866,2.2718 z m -4.498033,-7.78181 c -0.50997,-0.95289 -0.160361,-2.23645 1.559696,-5.7263 1.187489,-2.40932 1.684407,-3.10384 2.395223,-3.34772 1.2363,-0.42416 1.959883,0.10146 2.080722,1.51146 0.07241,0.84485 -0.287786,1.91061 -1.394996,4.12759 -0.820932,1.64377 -1.715174,3.24067 -1.987204,3.54867 -0.697515,0.78974 -2.204491,0.72517 -2.653441,-0.1137 z m 8.20089,-1.10916 c -0.276571,-0.27657 -0.502857,-0.83842 -0.502857,-1.24855 0,-0.79728 8.344337,-17.86922 9.193168,-18.80859 0.278313,-0.308 0.898236,-0.56 1.377605,-0.56 1.292731,0 1.769146,1.32959 1.127777,3.14742 -0.700837,1.98638 -8.155938,16.40413 -8.920932,17.25258 -0.760551,0.84352 -1.571017,0.92088 -2.274761,0.21714 z M 28.60107,174.86549 c -0.688242,-1.05039 -0.408105,-2.02509 2.118323,-7.37045 1.455878,-3.08031 2.062869,-4.04497 2.696887,-4.28603 1.43741,-0.5465 2.423719,0.31147 2.423719,2.10834 0,0.92852 -3.556979,8.84733 -4.403165,9.80265 -0.750025,0.84675 -2.199422,0.71667 -2.835764,-0.25451 z m 10.297074,-5.0167 c -0.273979,-0.39116 -0.498145,-0.94161 -0.498145,-1.22322 0,-0.88161 2.785498,-6.28084 3.352596,-6.49845 1.537515,-0.59 2.471404,0.0935 2.471404,1.80867 0,1.10145 -1.864025,5.17852 -2.791773,6.10627 -0.735297,0.73529 -1.948501,0.64277 -2.534082,-0.19327 z m 214.857116,99.95043 c -3.69721,-1.99164 -79.62491,-45.95215 -80.11943,-46.38743 -1.16472,-1.0252 -1.47583,-2.41902 -1.47583,-6.61179 0,-2.67725 0.14572,-4.3646 0.43616,-5.05028 0.38636,-0.91215 3.4368,-2.7601 26.71559,-16.18429 l 26.27943,-15.15457 0.0844,-32.86897 0.0844,-32.86897 0.78281,-1.14234 c 0.56393,-0.82293 2.11995,-1.91585 5.56498,-3.90875 5.45279,-3.15435 6.67073,-3.49717 8.88299,-2.50034 0.77507,0.34924 17.53722,9.94879 37.24922,21.33232 24.31471,14.04157 36.27123,21.11937 37.18098,22.00972 1.72186,1.68515 3.1502,4.38783 3.5912,6.79524 0.53292,2.90924 0.47472,75.27179 -0.0614,76.3313 -0.22003,0.43482 -1.54883,1.45794 -2.95529,2.27544 -1.40552,0.81695 -14.7955,8.50467 -29.7555,17.08382 -14.96,8.57914 -27.8606,16.01519 -28.66801,16.52455 -1.72139,1.08595 -2.31138,1.13624 -3.81672,0.32534 z m -0.0613,-7.43273 -0.094,-2.27351 -14.81983,-8.55671 c -13.19348,-7.61768 -14.96691,-8.5536 -16.16,-8.52839 -1.14891,0.0243 -2.24157,-0.48997 -7.65666,-3.60355 -5.65268,-3.25018 -8.2435,-5.16869 -8.2435,-6.1043 0,-0.15273 -6.444,-3.99026 -14.32,-8.52784 -7.876,-4.53757 -14.65044,-8.46038 -15.0543,-8.71733 l -0.73429,-0.4672 0.0943,2.43747 0.0943,2.43747 38.24,22.08434 c 21.03199,12.14638 38.3543,22.08629 38.49401,22.08869 0.13971,0.002 0.21171,-1.01871 0.16,-2.26914 z m 29.18598,-12.42928 c 13.112,-7.53581 25.676,-14.7439 27.92,-16.01797 l 4.08,-2.3165 -0.003,-37.00137 -0.003,-37.00137 -0.75769,-1.6 c -0.41672,-0.88 -1.24332,-2.04855 -1.83687,-2.59678 -0.79246,-0.73194 -68.14683,-39.87428 -72.82018,-42.31873 -0.59719,-0.31237 -0.99485,-0.19445 -2.68535,0.79632 -1.75396,1.02798 -1.91406,1.20165 -1.379,1.49592 0.33294,0.18311 16.30134,9.38976 35.48534,20.45921 23.88034,13.77931 35.3143,20.54851 36.25717,21.46517 1.62091,1.57585 3.1298,4.4842 3.58114,6.90256 0.20217,1.08327 0.32169,13.80791 0.32169,34.2488 0,28.15951 -0.0634,32.61564 -0.47236,33.19951 -0.2598,0.37091 -12.21179,7.41963 -26.56,15.66382 l -26.08764,14.98942 v 1.88163 c 0,1.66055 0.0658,1.85637 0.56,1.66673 0.308,-0.11819 11.288,-6.38056 24.4,-13.91637 z m -2.57543,-7.43213 c 13.21848,-7.59821 23.92151,-13.92479 23.78452,-14.05908 -0.137,-0.13429 -17.3702,-10.13108 -38.296,-22.21508 -32.263,-18.63088 -38.14923,-21.92395 -38.72,-21.66202 -2.06637,0.94826 -47.39308,27.33779 -47.39308,27.59258 0,0.16807 6.68688,4.16479 14.85974,8.8816 13.05374,7.53371 14.97889,8.74372 15.84,9.95591 0.78624,1.10678 2.01371,1.97584 6.20164,4.39081 4.61747,2.66266 5.35771,2.99218 6.4,2.84893 1.08269,-0.14879 2.45479,0.57922 16.85861,8.94488 8.624,5.00878 15.84897,9.11351 16.05548,9.12162 0.20652,0.008 11.1906,-6.20195 24.40909,-13.80015 z m -9.69992,1.08121 C 269.9213,243.4407 206.84982,206.89312 206,206.15029 c -0.31401,-0.27447 -0.56,-0.9379 -0.56,-1.51029 0,-0.5747 0.24473,-1.23209 0.56,-1.50426 0.308,-0.2659 5.56801,-3.47914 11.68892,-7.14055 10.68933,-6.39414 11.16966,-6.64392 12.16,-6.32353 0.56709,0.18346 15.28707,8.61684 32.71107,18.74084 33.75925,19.61539 33.12846,19.20316 32.1237,20.99327 -0.29066,0.51785 -4.3641,3.15475 -11.48703,7.43602 -6.07017,3.6485 -11.25267,6.68711 -11.51667,6.75248 -0.264,0.0654 -0.74791,0.0618 -1.07535,-0.008 z m 9.43224,-9.84844 c 4.55571,-2.73566 8.28011,-5.07381 8.27645,-5.19589 -0.004,-0.12208 -13.25378,-7.90456 -29.44471,-17.2944 -19.01159,-11.02566 -29.61944,-17.00281 -29.95021,-16.87589 -1.18887,0.45621 -17.10637,10.18704 -16.93845,10.35496 0.75481,0.75481 58.99631,34.26925 59.33692,34.14479 0.24028,-0.0878 4.16428,-2.39791 8.72,-5.13357 z m -45.35009,6.67531 c -8.20929,-4.48948 -26.49733,-15.41514 -26.76433,-15.98957 -0.73125,-1.57324 -0.16912,-2.15693 5.16714,-5.36532 3.1381,-1.88676 5.42315,-3.05827 5.96521,-3.05827 0.8732,0 26.73088,14.73536 28.19504,16.06734 0.83554,0.76011 1.05763,1.49216 0.72526,2.39064 -0.27955,0.75569 -9.47191,6.44013 -10.82289,6.69273 -0.53952,0.10089 -1.40664,-0.15852 -2.46543,-0.73755 z m 4.7174,-5.2616 c 1.80679,-1.07339 2.15542,-1.40384 1.81594,-1.72123 -0.23107,-0.21604 -5.30145,-3.21943 -11.26751,-6.67421 l -10.84737,-6.28141 -2.5448,1.49192 c -1.76332,1.03377 -2.41209,1.56911 -2.11263,1.74329 0.2377,0.13825 5.25618,3.06351 11.15217,6.50056 5.896,3.43706 10.91083,6.25377 11.14406,6.25936 0.23323,0.006 1.43029,-0.58764 2.66014,-1.31828 z m 67.15268,-41.63156 -0.003,-31.12 -0.75769,-1.6 c -0.41672,-0.88 -1.24332,-2.04596 -1.83687,-2.59101 -1.00098,-0.9192 -71.39201,-41.72753 -73.09037,-42.37325 -0.69182,-0.26302 -0.78193,-0.19296 -0.9476,0.7368 -0.10069,0.5651 -0.14215,15.1967 -0.0921,32.51466 l 0.0909,31.48721 38.08,22.01199 c 20.944,12.1066 38.188,22.02135 38.32,22.03279 0.132,0.0114 0.2386,-13.98319 0.23688,-31.09919 z M 239.35999,161.6 c -0.78915,-0.78916 -0.82253,-1.96085 -0.08,-2.80799 0.46435,-0.52976 10.47112,-6.35675 14.06411,-8.1896 1.35034,-0.68883 1.58294,-0.66446 2.51044,0.26304 0.97934,0.97934 1.00429,2.10524 0.0655,2.95361 -1.18861,1.07408 -14.46917,8.42094 -15.22213,8.42094 -0.38383,0 -0.98587,-0.288 -1.33787,-0.64 z m 0.22615,-8.64514 c -1.31755,-1.03639 -1.18181,-2.32218 0.36332,-3.44147 0.6762,-0.48984 1.82957,-1.16123 2.56305,-1.49198 1.60307,-0.72288 2.74861,-0.37354 3.26974,0.99713 0.42556,1.11929 -0.30423,2.1523 -2.38364,3.37402 -2.15018,1.26331 -2.79953,1.35908 -3.81247,0.5623 z M 259.19999,150.4 c -0.35496,-0.35496 -0.64,-1.06667 -0.64,-1.598 0,-0.75556 0.28063,-1.16127 1.32802,-1.92 2.06963,-1.49923 3.80888,-1.16108 4.31064,0.83809 0.23616,0.94091 -0.66414,2.05232 -2.28586,2.82188 -1.38543,0.65743 -1.94255,0.62827 -2.7128,-0.14197 z m -10.45998,-2.49142 c -0.7014,-0.44599 -1.03652,-1.8344 -0.63368,-2.62536 0.4391,-0.86216 5.49275,-3.83923 6.5212,-3.8416 0.88807,-0.002 2.01246,1.17308 2.01246,2.10327 0,1.02196 -0.82062,1.801 -3.46811,3.29237 -2.24606,1.26525 -3.60881,1.59467 -4.43187,1.07132 z m -9.52187,-3.97979 c -0.54045,-0.77159 -0.63756,-1.77378 -0.23354,-2.41013 0.30679,-0.4832 7.38271,-4.55866 7.91487,-4.55866 0.81519,0 2.06052,1.33412 2.06052,2.20744 0,1.12904 -0.7424,1.78041 -4.35797,3.82359 -3.25919,1.84179 -4.5885,2.07333 -5.38388,0.93776 z m -78.22348,18.60509 c -7.48055,-1.46909 -12.89284,-9.25005 -11.57265,-16.63737 1.13497,-6.35092 5.88539,-11.07513 12.20915,-12.14177 9.52521,-1.60663 18.31757,7.2079 16.62683,16.66874 -1.47466,8.25167 -9.22547,13.68895 -17.26333,12.1104 z M 129.99534,130.2283 c -0.92376,-0.37111 -1.43289,-1.66268 -1.05118,-2.66665 0.15858,-0.4171 1.24608,-1.6051 2.41667,-2.64 6.47498,-5.72448 13.84844,-9.464 22.49079,-11.40642 2.6701,-0.60013 4.07844,-0.69863 9.98838,-0.69863 5.90993,0 7.31827,0.0985 9.98837,0.69863 8.64235,1.94242 16.01581,5.68194 22.49079,11.40642 2.35194,2.07932 2.86476,2.97814 2.39865,4.20409 -0.343,0.90217 -1.68689,1.55068 -2.60777,1.2584 -0.33298,-0.10568 -1.42996,-0.94547 -2.43773,-1.8662 -11.47691,-10.48557 -27.35579,-14.06245 -42.79231,-9.6394 -5.43753,1.55802 -12.40441,5.48304 -16.48,9.28452 -1.64526,1.5346 -2.87409,2.40609 -3.3512,2.37665 -0.18084,-0.0112 -0.6549,-0.15129 -1.05346,-0.31141 z m -13.09442,-13.11352 c -0.75383,-0.30051 -1.38092,-1.23936 -1.38092,-2.06745 0,-1.21739 5.60859,-6.25897 10.96851,-9.85963 12.08812,-8.120501 27.87461,-12.311712 41.91149,-11.127228 12.51536,1.056092 23.19349,4.679531 32.79148,11.127228 5.56655,3.73947 10.96852,8.64629 10.96852,9.96314 0,0.85682 -0.95636,1.90325 -1.95474,2.13884 -0.71459,0.16863 -1.2903,-0.2026 -4,-2.57928 -3.8811,-3.40413 -7.39125,-5.95878 -11.11383,-8.08854 -10.69575,-6.11924 -23.92836,-9.128789 -35.70381,-8.120261 -14.71574,1.260353 -26.77699,6.381551 -37.64501,15.984061 -3.0663,2.70924 -3.73281,3.07117 -4.84169,2.62912 z m -13.12,-13.12 c -0.93089,-0.37109 -1.48209,-1.46813 -1.2341,-2.45619 0.40854,-1.627766 8.00686,-8.147552 14.26731,-12.242163 10.9455,-7.158841 22.20638,-11.326682 35.98587,-13.318974 5.30773,-0.767414 16.77226,-0.767414 22.08,0 13.77948,1.992292 25.04036,6.160133 35.98586,13.318974 6.31873,4.132724 13.85923,10.616221 14.27538,12.274293 0.33109,1.31918 -0.57814,2.42928 -1.98971,2.42928 -0.97545,0 -1.48173,-0.30903 -3.2766,-2 -20.82316,-19.617752 -50.20056,-26.878525 -77.96877,-19.270371 -12.33212,3.378854 -24.49685,10.245515 -34.06218,19.227181 -2.24332,2.10644 -2.9731,2.47248 -4.06306,2.03797 z"/>
+        </g>
+    </symbol>
+</svg>
+
+<!-- Side menu on the left -->
+<nav class="d-flex flex-column bg-dark-blue flex-shrink-0 rounded-4 p-3">
+        <span class="d-flex align-items-center mx-auto text-off-white text-decoration-none">
+            <svg class="bi" width="200">
+                <use href="#logo"></use>
+            </svg>
+        </span>
+    <hr>
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+                <span id="btn-home" class="nav-link text-off-white active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-house-door pe-none me-2" viewBox="0 0 16 16">
+                        <path
+                                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                    </svg>
+                    Home
+                </span>
+        </li>
+        <li class="nav-item">
+                <span id="btn-share-screen" class="nav-link text-off-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-broadcast-pin pe-none me-2" viewBox="0 0 16 16">
+                        <path
+                                d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707m2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708m5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708m2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8"/>
+                    </svg>
+                    Share screen
+                </span>
+        </li>
+        <li class="nav-item">
+                <span id="btn-view-screen" class="nav-link text-off-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-cast pe-none me-2" viewBox="0 0 16 16">
+                        <path
+                                d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0"/>
+                        <path
+                                d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086z"/>
+                    </svg>
+                    View screen
+                </span>
+        </li>
+    </ul>
+    <hr>
+    <button id="btn-status" type="button" class="btn text-start text-off-white" data-bs-toggle="popover"
+            data-bs-container="body" data-bs-placement="right" data-bs-trigger="hover focus" data-html="true"
+            data-bs-content="undefined">
+        <svg id="circle-status" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+             class="bi bi-circle-fill pe-none me-2 text-danger" viewBox="0 0 16 16">
+            <circle cx="8" cy="8" r="8"/>
+        </svg>
+        <span id="text-status">Error</span>
+    </button>
+</nav>
+
+<!-- Page content -->
+<div class="d-flex justify-content-between flex-column w-100 rounded-4 ms-4">
+    <main id="home" class="flex-row bg-white rounded-4 p-3 mb-3 ">
+        <h1>Wi-Fi Wonders</h1>
+        <hr>
+        <!-- <h2 class="mt-4">WiFi Direct, WPA Supplicant and D-Bus</h2>
+        <p>
+            WiFi Direct is a technology that enables devices to connect directly without the need for a traditional
+            wireless network infrastructure. WPA Supplicant is a software implementation of the WPA (Wi-Fi Protected
+            Access) protocol, which provides secure wireless network connections. D-Bus, on the other hand, is a
+            message bus system that facilitates communication between various processes on a Linux system, including
+            those related to WiFi configuration and management.
+        </p>
+        <h2 class="mt-4">Screen Capture and FFmpeg</h2>
+        <p>
+            Screen capture refers to the process of recording the display of a computer or mobile device. This can
+            be achieved using various tools and technologies. FFmpeg, a powerful multimedia processing tool,
+            provides capabilities for capturing and recording screen content. It supports a wide range of audio and
+            video formats, making it a versatile solution for screen recording and video processing tasks.
+        </p>
+        <hr> -->
+        <div class="alert-error-start alert alert-danger text-danger-emphasis d-none" role="alert"></div>
+        <div id="panelEnableWifiDirectMode" class="alert-setup-missing d-none">
+            <div class="alert alert-warning" role="alert">
+                <p>Attention: To use the application you need to activate Wi-Fi Direct mode</p>
+                <p>By activating Wi-Fi Direct mode you will be disconnected from the current connection.</p>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button id="btnEnableWifiDirectMode" type="button" class="btn btn-primary">
+                    Enable Wi-Fi Direct mode
+                </button>
+                <button id="spinnerEnableWifiDirectMode" type="button" class="btn btn-primary d-none">
+                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                    <span role="status">Loading...</span>
+                </button>
+            </div>
+        </div>
+        <div id="panelResetNetwork" class="d-none">
+            <div class="alert alert-light" role="alert">
+                <p>Network settings will be restored when the app is closed.</p>
+                <p>You can still reset the settings now, but any operation will be terminated.</p>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button id="btnResetNetwork" type="button" class="btn btn-outline-secondary">
+                    Reset Network settings
+                </button>
+                <button id="spinnerResetNetwork" type="button" class="btn btn-outline-secondary d-none">
+                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                    <span role="status">Loading...</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <main id="share-screen" class="flex-row bg-white rounded-4 p-3 mb-3 d-none">
+        <h1>Share screen</h1>
+        <hr>
+        <div class="alert-error-start alert alert-danger text-danger-emphasis d-none" role="alert"></div>
+
+        <div class="panelDeviceInfo d-none">
+            <h3>Device info</h3>
+            <div class="peer-item d-flex align-items-end ps-3 py-1">
+                <span class="device-name fs-5 fw-medium me-2">Device name</span>
+                <span class="device-mac-addr text-muted">00:00:00:00:00:00</span>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert-setup-missing alert alert-warning d-none" role="alert">
+            <p class="fs-5 fw-medium ">Setup missing</p>
+            <p>Please enable Wi-Fi Direct mode</p>
+        </div>
+        <div id="errorViewInProgress" class="alert alert-warning d-none" role="alert">
+            <p class="fs-5 fw-medium ">Streaming in progress</p>
+            <p>Please disconnect from current group before start sharing your screen</p>
+        </div>
+
+
+
+        <div id="panelShareScreen" class="d-none">
+            <div id="panelSelectScreen" class="d-none">
+                <div id="listScreen" class="d-flex justify-content-evenly">
+                    <!--<div class="card">
+                        <img src="res/wallpaper.jpg" class="card-img-top" alt="Preview">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center p-1">
+                            <h5 class="card-title">Screen 1</h5>
+                            <span class="card-subtitle text-secondary">1366x768</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="res/wallpaper.jpg" class="card-img-top" alt="Preview">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center p-1">
+                            <h5 class="card-title">Screen 2</h5>
+                            <span class="card-subtitle text-secondary">1920x1080</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center p-1">
+                            <h5 class="card-title">Select area</h5>
+                        </div>
+                    </div>-->
+                </div>
+                <hr>
+            </div>
+            <div id="panelGroup" class="d-none">
+                <h3 id="group-name-owner">Group name</h3>
+                <span id="noPeersConnected" class="no-peers fs-5 text-muted ps-3 py-1">No peers connected</span>
+                <div id="listConnectedPeers">
+<!--                    <div class="peer-item d-flex align-items-end ps-3 py-1">
+                        <span class="peer-name fs-5 fw-medium me-2">Device name</span>
+                        <span class="peer-mac-addr text-muted">00:00:00:00:00:00</span>
+                        <button class="btn btn-sm btn-outline-danger ms-auto">Remove</button>
+                    </div>-->
+                </div>
+                <hr>
+            </div>
+            <div class="d-flex justify-content-end">
+                <button id="btnPreviewScreen" type="button" class="btn btn-outline-primary me-3 d-none">
+                    Show preview
+                </button>
+                <button id="btnStopShare" type="button" class="btn btn-danger d-none">
+                    Stop share
+                </button>
+                <button id="btnStartShare" type="button" class="btn btn-success d-none">
+                    Start share
+                </button>
+                <button id="btnSelectScreen" type="button" class="btn btn-success d-none">
+                    Select screen
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <main id="view-screen" class="flex-row bg-white rounded-4 p-3 mb-3 d-none">
+        <h1>View screen</h1>
+        <hr>
+        <div class="alert-error-start alert alert-danger text-danger-emphasis d-none" role="alert"></div>
+
+        <div class="panelDeviceInfo d-none">
+            <h3>Device info</h3>
+            <div class="peer-item d-flex align-items-end ps-3 py-1">
+                <span class="device-name fs-5 fw-medium me-2">Device name</span>
+                <span class="device-mac-addr text-muted">00:00:00:00:00:00</span>
+            </div>
+            <hr>
+        </div>
+
+        <div class="alert-setup-missing alert alert-warning d-none" role="alert">
+            <p class="fs-5 fw-medium ">Setup missing</p>
+            <p>Please enable Wi-Fi Direct mode</p>
+        </div>
+        <div id="errorShareInProgress" class="alert alert-warning d-none" role="alert">
+            <p class="fs-5 fw-medium ">Screen sharing on</p>
+            <p>Please stop share before start viewing other screens</p>
+        </div>
+
+        <div id="panelViewScreen" class="d-none">
+            <div id="panelFindMode">
+                <h3>Available Peers</h3>
+                <span id="noPeersAvailable" class="no-peers fs-5 text-muted ps-3 py-1">No peers found</span>
+                <div id="listAvailablePeers" class="d-none">
+<!--                    <div class="peer-item d-flex align-items-end ps-3 py-1">
+                        <span class="peer-name fs-5 fw-medium me-2">Device name</span>
+                        <span class="peer-mac-addr text-muted">00:00:00:00:00:00</span>
+                        <button class="btn btn-sm btn-outline-primary ms-auto" onclick="ConnectToPeer(0);">Connect</button>
+                    </div>-->
+                </div>
+            </div>
+            <div id="panelConnected" class="d-none">
+                <h3 id="group-name-client">Group DIRECT-00</h3>
+                <div class="peer-item d-flex align-items-end ps-3 py-1">
+                    <span id="connectedPeerName" class="peer-name fs-5 fw-medium me-2"></span>
+                    <span id="connectedPeerMacAddr" class="peer-mac-addr text-muted"></span>
+                </div>
+                <div class="screen-preview ps-3">
+                    <button id="btnStartFFplayClient_spinner" type="button" class="btn btn-primary">
+                        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                        Connecting to streaming...
+                    </button>
+                    <button id="btnStartFFplayClient" type="button" class="btn btn-primary d-none">
+                        View screen
+                    </button>
+                    <!--<video height="150" autoplay muted loop>
+                        <source src="https://static.vecteezy.com/system/resources/previews/004/921/963/mp4/glowing-blue-square-tunnel-vj-loop-free-video.mp4"
+                                type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>-->
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button id="btnDisconnect" type="button" class="btn btn-danger">
+                        Disconnect
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="flex-row bg-body-secondary rounded-4 px-3 py-2 text-muted">
+        Version 1.0
+    </div>
+</div>
+
+<script src="res/js/popper.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
+
+<script src="res/js/script.js"></script>
+</body>
+
+</html>

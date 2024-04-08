@@ -1,0 +1,2 @@
+/usr/bin/ar qc libScreenCastingService.a CMakeFiles/ScreenCastingService.dir/ScreenCastingService_autogen/mocs_compilation.cpp.o CMakeFiles/ScreenCastingService.dir/monitor.cpp.o CMakeFiles/ScreenCastingService.dir/monitor_service.cpp.o CMakeFiles/ScreenCastingService.dir/libav_wrapper.cpp.o CMakeFiles/ScreenCastingService.dir/casting_service.cpp.o
+/usr/bin/ranlib libScreenCastingService.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWpaSupplicantManager.a CMakeFiles/WpaSupplicantManager.dir/WpaSupplicantManager_autogen/mocs_compilation.cpp.o CMakeFiles/WpaSupplicantManager.dir/wpa_supplicant_manager.cpp.o
+/usr/bin/ranlib libWpaSupplicantManager.a

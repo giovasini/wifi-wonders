@@ -1,0 +1,89 @@
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.bg-off-white {
+    background-color: #f8f9fb !important;
+}
+
+.bg-dark-blue {
+    background-color: #040e1a !important;
+}
+
+.bg-blue {
+    background-color: #043568 !important;
+}
+
+.bg-accent-blue {
+    background-color: #0864e6 !important;
+}
+
+.bg-light-blue {
+    background-color: #dcedf8 !important;
+}
+
+.text-off-white {
+    color: #f8f9fb !important;
+}
+
+.text-dark-blue {
+    color: #040e1a !important;
+}
+
+.text-blue {
+    color: #043568 !important;
+}
+
+.text-accent-blue {
+    color: #0864e6 !important;
+}
+
+.text-light-blue {
+    color: #dcedf8 !important;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    overflow-y: auto;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+
+.blink {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.card {
+    width: 160px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 2px solid var(--bs-card-border-color);
+}
+
+.card.selected {
+    border: 2px solid var(--bs-primary);
+}
+
+.card-title {
+    font-size: 0.9rem;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+}

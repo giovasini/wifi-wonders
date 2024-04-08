@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>html-ui/index.html</file>
+        <file>html-ui/res/css/bootstrap.min.css</file>
+        <file>html-ui/res/css/style.css</file>
+        <file>html-ui/res/js/popper.min.js</file>
+        <file>html-ui/res/js/bootstrap.min.js</file>
+        <file>html-ui/res/js/jquery-3.7.1.min.js</file>
+        <file>html-ui/res/js/script.js</file>
+    </qresource>
+</RCC>
